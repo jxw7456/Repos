@@ -12,6 +12,7 @@ namespace Test
         {
             Console.WriteLine("This is a Test");
             Console.Write("- JaJuan Webster");
+            int test = 1;
         }
     }
 }
