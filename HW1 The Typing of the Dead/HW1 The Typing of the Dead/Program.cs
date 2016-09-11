@@ -14,6 +14,8 @@ namespace HW1_The_Typing_of_the_Dead
     {
         static void Main(string[] args)
         {
+            /*TEST CODE
+             
             ZombieData test = new ZombieData();
             test.LoadPhrases("phrases.txt");
             test.LoadZombies();
@@ -23,7 +25,12 @@ namespace HW1_The_Typing_of_the_Dead
                 Console.WriteLine(test.RandomPhrase());
                 Console.WriteLine(test.RandomZombie());
             }
-            
+            */
+
+            //Game Object
+            Game play = new Game();
+            play.PlayGame();
+
             //DEBUG
             Console.ReadLine();
         }

@@ -33,7 +33,6 @@ namespace HW1_The_Typing_of_the_Dead
                     string lineP;
                     while ((lineP = srPhrases.ReadLine()) != null)
                     {
-                        Console.WriteLine(lineP);
                         phrases.Add(lineP);
                     }
                 }
@@ -57,11 +56,11 @@ namespace HW1_The_Typing_of_the_Dead
                     if (file.Contains("zombie"))
                     {
                         // Open the text file using a stream reader.
-                        using (StreamReader srZombie = new StreamReader(file + ".txt"))
+                        using (StreamReader srZombie = new StreamReader(file))
                         {
                             // Read the stream to a string, and write the string to the console.
                             string lineZ = srZombie.ReadToEnd();
-                            Console.WriteLine(lineZ);
+                            zombies.Add(lineZ);
                         }
                     }
                 }
@@ -78,8 +77,7 @@ namespace HW1_The_Typing_of_the_Dead
         {
             Random rng = new Random();
             int rn = rng.Next(phrases.Count);
-            string randPhrase = rn.ToString();
-            return randPhrase;
+            return phrases[rn];
         }
 
         //returns a random zombie from the zombie list
@@ -87,8 +85,7 @@ namespace HW1_The_Typing_of_the_Dead
         {
             Random rng2 = new Random();
             int rn2 = rng2.Next(zombies.Count);
-            string randZombie = rn2.ToString();
-            return randZombie;
+            return zombies[rn2];
         }
     }
 }
