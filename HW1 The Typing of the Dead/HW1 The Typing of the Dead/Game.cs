@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.IO;
 
 namespace HW1_The_Typing_of_the_Dead
 {
@@ -23,6 +24,7 @@ namespace HW1_The_Typing_of_the_Dead
         //Constructor
         public Game()
         {
+            //player health
             playerLife = 10;
             score = 0;
 
@@ -58,15 +60,15 @@ namespace HW1_The_Typing_of_the_Dead
                     string currentLetter = numPhrases[letterIndex].ToString().ToUpper();
                     if (letter.Equals(currentLetter))
                     {
+                        //CORRECT
                         letterIndex++;
                         Console.Write("! ");
-                        Console.WriteLine();    //INDENT
                     }
                     else
                     {
+                        //INCORRECT
                         letterIndex = 0;
                         Console.Write(":( ");
-                        Console.WriteLine();    //INDENT
                     }
 
                     if (letterIndex == numPhrases.Length)
@@ -76,6 +78,7 @@ namespace HW1_The_Typing_of_the_Dead
                         zombieTimer = 0;
                         letterIndex = 0;
                         Console.WriteLine("Zombie is dead! You are the winner!");
+                        Thread.Sleep(100);
                     }
                 }
 
@@ -84,8 +87,9 @@ namespace HW1_The_Typing_of_the_Dead
 
                 //Makes game harder
                 if (zombieTimer >= 4000 - score)
-                {                    
-                    playerLife--;                    
+                {
+                    playerLife--;
+                    Console.WriteLine();    //INDENT                 
                     Console.WriteLine("!ZOMBIE BITE!");
                     Console.WriteLine("Player Life: " + playerLife);
                     Console.WriteLine();    //INDENT
@@ -95,12 +99,12 @@ namespace HW1_The_Typing_of_the_Dead
 
                     if (playerLife == 0)
                     {
-                    Console.WriteLine("You are Dead!");
-                    Console.WriteLine("Final Score: " + score);
+                        Console.WriteLine("You are Dead!");
+                        Console.WriteLine("Final Score: " + score);
+                        Console.WriteLine();    //INDENT
+                        Console.WriteLine("PRESS ANY KEY TO EXIT");
                     }
                 }
-
-                
             }
         }
     }

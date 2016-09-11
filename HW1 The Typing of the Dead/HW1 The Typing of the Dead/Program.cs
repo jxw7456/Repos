@@ -28,11 +28,12 @@ namespace HW1_The_Typing_of_the_Dead
             */
 
             //Game Object
+            //Instructions: If you mess up the phrase, you have to start all over.
             Game play = new Game();
             play.PlayGame();
 
             //DEBUG
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
