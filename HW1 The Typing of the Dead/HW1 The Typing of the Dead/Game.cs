@@ -14,19 +14,22 @@ namespace HW1_The_Typing_of_the_Dead
         public ZombieData theDead;
         public int playerLife;
         public int score;
+        public int highscore;
 
         public int zombieTimer { get; set; }
 
         public int letterIndex { get; set; }
 
+        //increases score for each beaten zombie
         const int SCORE_CHANGE = 100;
 
         //Constructor
         public Game()
         {
             //player health
-            playerLife = 10;
+            playerLife = 15;
             score = 0;
+            highscore = 0;
 
             theDead = new ZombieData();
             theDead.LoadPhrases("phrases.txt");
@@ -35,11 +38,15 @@ namespace HW1_The_Typing_of_the_Dead
 
         public void PlayGame()
         {
+            //HighScore object
+            HighScore.ReadScore();
+
             string numZombies = "";
             string numPhrases = "";
 
             while (playerLife > 0)
             {
+                //adds a zombie and a phrase when there are none
                 if (string.IsNullOrEmpty(numZombies))
                 {
                     numZombies = theDead.RandomZombie();
@@ -53,6 +60,7 @@ namespace HW1_The_Typing_of_the_Dead
                     Console.WriteLine();
                 }
 
+                //keeps going while there are keys waiting to be read
                 while (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
@@ -71,6 +79,7 @@ namespace HW1_The_Typing_of_the_Dead
                         Console.Write(":( ");
                     }
 
+                    //kills the zombie and adds another phrase and zombie
                     if (letterIndex == numPhrases.Length)
                     {
                         numZombies = null;
@@ -101,6 +110,13 @@ namespace HW1_The_Typing_of_the_Dead
                     {
                         Console.WriteLine("You are Dead!");
                         Console.WriteLine("Final Score: " + score);
+
+                        //saves highscore, if beaten
+                        if (score > highscore)
+                        {
+                            highscore = score;
+                            HighScore.WriteScore(highscore);
+                        }
                         Console.WriteLine();    //INDENT
                         Console.WriteLine("PRESS ANY KEY TO EXIT");
                     }

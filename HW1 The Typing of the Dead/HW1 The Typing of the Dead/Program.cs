@@ -14,25 +14,12 @@ namespace HW1_The_Typing_of_the_Dead
     {
         static void Main(string[] args)
         {
-            /*TEST CODE
-             
-            ZombieData test = new ZombieData();
-            test.LoadPhrases("phrases.txt");
-            test.LoadZombies();
-
-            for (int i = 0; i < 30; i++)
-            {
-                Console.WriteLine(test.RandomPhrase());
-                Console.WriteLine(test.RandomZombie());
-            }
-            */
-
             //Game Object
             //Instructions: If you mess up the phrase, you have to start all over.
             Game play = new Game();
             play.PlayGame();
 
-            //DEBUG
+            //Game Closes when any key is pressed
             Console.ReadKey();
         }
     }
