@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1 The Typing of the Dead", "HW1 The Typing of the Dead\HW1 The Typing of the Dead.csproj", "{C519BE06-1241-49F3-82DA-BA515B1C6E54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1 The Typing of the Dead", "HW1 The Typing of the Dead.csproj", "{66B991D9-31CD-48C5-ADBD-CE749B151A42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C519BE06-1241-49F3-82DA-BA515B1C6E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C519BE06-1241-49F3-82DA-BA515B1C6E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C519BE06-1241-49F3-82DA-BA515B1C6E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C519BE06-1241-49F3-82DA-BA515B1C6E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B991D9-31CD-48C5-ADBD-CE749B151A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B991D9-31CD-48C5-ADBD-CE749B151A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B991D9-31CD-48C5-ADBD-CE749B151A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B991D9-31CD-48C5-ADBD-CE749B151A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
