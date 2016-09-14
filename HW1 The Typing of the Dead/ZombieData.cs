@@ -26,7 +26,23 @@ namespace HW1_The_Typing_of_the_Dead
         //opens the file with this filename (as text), and reads all the phrases, storing them in the phrases attribute.
         public void LoadPhrases(string filename)
         {
+            try
+            {
+                using (StreamReader sr = new StreamReader(filename))
+                {
+                    // Read the stream to a string
+                    String read = sr.ReadToEnd();
+                    Console.WriteLine(read);
+                    phrases.Add(filename);
+                    sr.Close();
+                }
+            }
 
+            catch (Exception e)
+            {
+                Console.WriteLine("The file could not be read:");
+                Console.WriteLine(e.Message);
+            }
         }
 
         //read zombies in files zombie1.txt, zombie2.txt, etc. for an arbitrary number of zombies.
@@ -34,17 +50,18 @@ namespace HW1_The_Typing_of_the_Dead
         {
             try
             {
-                using (StreamReader sr = new StreamReader("zombie1.txt"))
+                using (StreamReader sr2 = new StreamReader("zombie1.txt"))
                 {
                     // Read the stream to a string
-                    String read = sr.ReadToEnd();
+                    String read = sr2.ReadToEnd();
                     Console.WriteLine(read);
+                    sr2.Close();
                 }
             }
-            catch (Exception e)
+            catch (Exception e2)
             {
                 Console.WriteLine("The file could not be read:");
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e2.Message);
             }
         }
 
