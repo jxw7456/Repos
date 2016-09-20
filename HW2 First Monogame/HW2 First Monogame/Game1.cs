@@ -12,6 +12,7 @@ namespace HW2_First_Monogame
     /// </summary>
     public class Game1 : Game
     {
+        enum GameState { Menu, Game, GameOver}
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SpriteFont spriteFont;

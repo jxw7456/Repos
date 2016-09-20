@@ -11,15 +11,15 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace HW2_First_Monogame
 {
-    class GameObject
+    abstract class GameObject
     {
         Game1 game1 = new Game1();
 
-        int X { get; set; }
-        int Y { get; set; }
-        int Width { get; set; }
-        int Height { get; set; }
-        Rectangle rectangle { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public Rectangle rectangle { get; set; }
         
         //Constructor  
         public GameObject(int X, int Y, int Width, int Height)
@@ -31,9 +31,6 @@ namespace HW2_First_Monogame
         }
 
         //use Spritebatch object to draw itself
-        public void Draw(SpriteBatch spritebatch)
-        {
-            spritebatch.Draw(game1.background, new Rectangle(rectangle.X, rectangle.Y, rectangle.Width, rectangle.Height), Color.White);
-        }
+        abstract public void Draw(SpriteBatch spritebatch);
     }
 }
