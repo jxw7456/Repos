@@ -14,6 +14,13 @@ namespace HW2_First_Monogame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        SpriteFont spriteFont;
+        public Texture2D background;
+        public Texture2D player;
+        public Texture2D item;
+
+        //GameObject object
+        GameObject gameObject = new GameObject();
 
         public Game1()
         {
@@ -42,6 +49,9 @@ namespace HW2_First_Monogame
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            background = Content.Load<Texture2D>("backgroundimage.png");
+            player = Content.Load<Texture2D>("player.png");
+            item = Content.Load<Texture2D>("item.png");
 
             // TODO: use this.Content to load your game content here
         }
@@ -79,6 +89,13 @@ namespace HW2_First_Monogame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            //Draw
+            gameObject.Draw(spriteBatch);
+
+            //End the sprite batch
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

@@ -13,14 +13,27 @@ namespace HW2_First_Monogame
 {
     class GameObject
     {
+        Game1 game1 = new Game1();
+
         int X { get; set; }
         int Y { get; set; }
-
-        public Rectangle Position { get; set; }
-          
-        public GameObject(int X, int Y, int width, int height, )
+        int Width { get; set; }
+        int Height { get; set; }
+        Rectangle rectangle { get; set; }
+        
+        //Constructor  
+        public GameObject(int X, int Y, int Width, int Height)
         {
-                                
+            X = rectangle.X;
+            Y = rectangle.Y;
+            Width = rectangle.Width;
+            Height = rectangle.Height;
+        }
+
+        //use Spritebatch object to draw itself
+        public void Draw(SpriteBatch spritebatch)
+        {
+            spritebatch.Draw(game1.background, new Rectangle(rectangle.X, rectangle.Y, rectangle.Width, rectangle.Height), Color.White);
         }
     }
 }
