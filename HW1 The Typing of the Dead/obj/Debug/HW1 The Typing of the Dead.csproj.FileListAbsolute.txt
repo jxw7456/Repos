@@ -1,0 +1,10 @@
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\HW1 The Typing of the Dead.exe.config
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\HW1 The Typing of the Dead.exe
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\HW1 The Typing of the Dead.pdb
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\obj\Debug\HW1 The Typing of the Dead.csprojResolveAssemblyReference.cache
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\obj\Debug\HW1 The Typing of the Dead.exe
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\obj\Debug\HW1 The Typing of the Dead.pdb
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\phrases.txt
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\zombie1.txt
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\zombie2.txt
+C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\zombie3.txt
