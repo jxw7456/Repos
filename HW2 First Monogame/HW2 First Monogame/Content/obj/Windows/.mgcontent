@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Profiles/jxw7456/Source/Repos/IGME-106/HW2 First Monogame/HW2 First Monogame/Content/backgroundimage.png</File>
+    <File>D:/Profiles/jxw7456/Source/Repos/IGME-106/HW2 First Monogame/HW2 First Monogame/Content/item.png</File>
+    <File>D:/Profiles/jxw7456/Source/Repos/IGME-106/HW2 First Monogame/HW2 First Monogame/Content/player.png</File>
+  </SourceFiles>
+</SourceFileCollection>
