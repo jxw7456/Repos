@@ -13,6 +13,7 @@ namespace Game2
 {
     public class GameObject
     {
+        //Player Position
         private int x;
 
         public int X

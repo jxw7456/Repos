@@ -211,15 +211,18 @@ namespace Game2
             // TODO: Add your drawing code here
             spriteBatch.Begin();
 
+            //Draws background
             spriteBatch.Draw(background, new Rectangle(0, 0, screenWidth, screenHeight), Color.White);
 
             //Draw
+            //Menu
             if (gameState == GameState.Menu)
             {
                 spriteBatch.DrawString(spriteFont, "Donnie Boy", new Vector2(screenWidth / 2, screenHeight / 2), Color.DarkRed);
                 spriteBatch.DrawString(spriteFont, "Press Enter to Start", new Vector2(screenWidth / 2, (screenHeight / 2) + 20), Color.Red);
             }
 
+            //Game
             if (gameState == GameState.Game)
             {
                 playerObject.Texture = player;
@@ -236,6 +239,7 @@ namespace Game2
                 spriteBatch.DrawString(spriteFont, "Timer: " + timerStr, new Vector2(0, 40), Color.Blue);
             }
 
+            //Game Over
             if (gameState == GameState.GameOver)
             {
                 spriteBatch.DrawString(spriteFont, "Game Over", new Vector2(screenWidth / 2, screenHeight / 2), Color.Blue);
@@ -251,6 +255,7 @@ namespace Game2
             base.Draw(gameTime);
         }
 
+        //creates next level with increased amount of items
         public void NextLevel()
         {
             //increment the level
@@ -265,7 +270,6 @@ namespace Game2
             //center player on the screen
             playerObject.X = screenWidth / 2;
             playerObject.Y = screenHeight / 2;
-            //playerObject.Position = new Rectangle(playerObject.Position.X, playerObject.Position.Y, playerObject.Position.Width, playerObject.Position.Height);
 
             //clear the list of collectibles
             collectibles.Clear();
@@ -284,6 +288,7 @@ namespace Game2
             }
         }
 
+        //Calls next Level
         public void ResetGame()
         {
             level = 0;
@@ -291,6 +296,7 @@ namespace Game2
             NextLevel();
         }
 
+        //Keeps the player from disappearing off the screen
         public void ScreenWrap(GameObject gameObject)
         {
             if (playerObject.Position.X > screenWidth)
@@ -314,6 +320,7 @@ namespace Game2
             }
         }
 
+        //checks for key pressed by the user
         public bool SingleKeyPress(Keys keys)
         {
             bool valid = false;

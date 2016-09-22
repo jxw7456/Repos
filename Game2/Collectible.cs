@@ -13,6 +13,7 @@ namespace Game2
 {
     public class Collectible:GameObject
     {
+        //attritbutes
         private bool active;
 
         public bool Active
@@ -40,6 +41,7 @@ namespace Game2
             return false;
         }
 
+        //Draw override for items
         public override void Draw(SpriteBatch spritebatch)
         {
             if (active == true)
