@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HW2 First Monogame")]
-[assembly: AssemblyProduct("HW2 First Monogame")]
+[assembly: AssemblyTitle("Game2")]
+[assembly: AssemblyProduct("Game2")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("bba991b0-4d9e-40fc-989a-71f427db94c1")]
+[assembly: Guid("d2bd2463-42c2-4e5e-9fdb-996e2a2df4b6")]
 
 // Version information for an assembly consists of the following four values:
 //
