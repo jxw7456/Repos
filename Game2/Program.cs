@@ -1,9 +1,6 @@
 ﻿using System;
-//Name: JaJuan Webster
-//HW2 First Monogame
-//Professor Maier
 
-namespace HW2_First_Monogame
+namespace Game2
 {
 #if WINDOWS || LINUX
     /// <summary>
