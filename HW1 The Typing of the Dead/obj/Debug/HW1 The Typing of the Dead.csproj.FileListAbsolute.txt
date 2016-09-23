@@ -8,3 +8,6 @@ C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\ph
 C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\zombie1.txt
 C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\zombie2.txt
 C:\Users\cavoc2302\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\zombie3.txt
+D:\Profiles\jxw7456\Source\Repos\IGME-106\HW1 The Typing of the Dead\bin\Debug\HW1 The Typing of the Dead.exe.config
+D:\Profiles\jxw7456\Source\Repos\IGME-106\HW1 The Typing of the Dead\obj\Debug\HW1 The Typing of the Dead.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\HW1 The Typing of the Dead\obj\Debug\HW1 The Typing of the Dead.pdb
