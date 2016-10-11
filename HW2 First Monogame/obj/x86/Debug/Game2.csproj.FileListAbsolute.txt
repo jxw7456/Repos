@@ -1,145 +1,32 @@
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\backgroundimage.png
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\item.png
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\player.png
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\SpriteFont1.xnb
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Game2.exe
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Game2.pdb
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.exe
-C:\Users\cavoc2302\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.pdb
-E:\Second Year\Game Dev 2\Game2\obj\x86\Debug\Game2.exe
-E:\Second Year\Game Dev 2\Game2\obj\x86\Debug\Game2.pdb
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\backgroundimage.png
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\item.png
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\SpriteFont1.xnb
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Game2.exe
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Game2.pdb
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-E:\Second Year\Game Dev 2\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
-E:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\player.png
-F:\Second Year\Game Dev 2\Game2\obj\x86\Debug\Game2.exe
-F:\Second Year\Game Dev 2\Game2\obj\x86\Debug\Game2.pdb
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\backgroundimage.png
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\item.png
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\player.png
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Content\SpriteFont1.xnb
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Game2.exe
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\Game2.pdb
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
-F:\Second Year\Game Dev 2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-F:\Second Year\Game Dev 2\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
-F:\Second Year\Game Dev 2\HW2 First Monogame\obj\x86\Debug\Game2.exe
-F:\Second Year\Game Dev 2\HW2 First Monogame\obj\x86\Debug\Game2.pdb
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\Content\backgroundimage.png
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\Content\item.png
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\Content\player.png
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\Content\SpriteFont1.xnb
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\Game2.exe
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\Game2.pdb
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\MonoGame.Framework.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XInput.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.RawInput.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\MonoGame.Framework.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XInput.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.RawInput.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-F:\Second Year\Game Dev 2\HW2 First Monogame\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\obj\x86\Debug\Game2.exe
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\obj\x86\Debug\Game2.pdb
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\Content\backgroundimage.png
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\Content\item.png
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\Content\player.png
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\Content\SpriteFont1.xnb
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\Game2.exe
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\Game2.pdb
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\MonoGame.Framework.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.DXGI.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XInput.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.RawInput.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\MonoGame.Framework.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.DXGI.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.XInput.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.RawInput.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\backgroundimage.xnb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\item.xnb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\player.xnb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\backgroundimage.png
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\item.png
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\player.png
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Content\SpriteFont1.xnb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Game2.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\Game2.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.pdb

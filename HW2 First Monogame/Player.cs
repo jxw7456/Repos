@@ -9,11 +9,10 @@ using Microsoft.Xna.Framework.Graphics;
 //HW2 First Monogame
 //Professor Maier
 
-namespace HW2_First_Mono
+namespace Game2
 {
     public class Player:GameObject
     {
-        //Properties
         private int levelScore; //score of current level
 
         public int LevelScore

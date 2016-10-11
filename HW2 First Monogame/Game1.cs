@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Input;
 //HW2 First Monogame
 //Professor Maier
 
-namespace HW2_First_Mono
+namespace Game2
 {
     /// <summary>
     /// This is the main type for your game.
@@ -32,18 +32,16 @@ namespace HW2_First_Mono
         Random rng;
         public List<Collectible> collectibles;
         public int level;
-        public int gameScore;
-
         public double timer;
         public string timerStr;
-        
+
         public int screenWidth;
         public int screenHeight;
+
 
         //objects
         GameState gameState;
         Player playerObject;
-        HighScore highScore;
 
         public Game1()
         {
@@ -64,7 +62,6 @@ namespace HW2_First_Mono
             screenWidth = GraphicsDevice.Viewport.Width;
             screenHeight = GraphicsDevice.Viewport.Height;
             playerObject = new Player(0, 0, 0, 0, 100, 100);
-            highScore = new HighScore();
             rng = new Random();
 
             base.Initialize();
@@ -82,7 +79,6 @@ namespace HW2_First_Mono
             player = Content.Load<Texture2D>("player");
             item = Content.Load<Texture2D>("item");
             spriteFont = Content.Load<SpriteFont>("SpriteFont1");
-            gameScore = 0;
 
             // TODO: use this.Content to load your game content here
         }
@@ -144,28 +140,28 @@ namespace HW2_First_Mono
                     //Up
                     if (kbState.IsKeyDown(Keys.W))
                     {
-                        playerObject.Position = new Rectangle(playerObject.Position.X, playerObject.Position.Y - 5, playerObject.Position.Width, playerObject.Position.Height);
+                        playerObject.Position = new Rectangle(playerObject.Position.X, playerObject.Position.Y - 4, playerObject.Position.Width, playerObject.Position.Height);
                         ScreenWrap(playerObject);
                     }
 
                     //Left
                     if (kbState.IsKeyDown(Keys.A))
                     {
-                        playerObject.Position = new Rectangle(playerObject.Position.X - 5, playerObject.Position.Y, playerObject.Position.Width, playerObject.Position.Height);
+                        playerObject.Position = new Rectangle(playerObject.Position.X - 4, playerObject.Position.Y, playerObject.Position.Width, playerObject.Position.Height);
                         ScreenWrap(playerObject);
                     }
 
                     //Down
                     if (kbState.IsKeyDown(Keys.S))
                     {
-                        playerObject.Position = new Rectangle(playerObject.Position.X, playerObject.Position.Y + 5, playerObject.Position.Width, playerObject.Position.Height);
+                        playerObject.Position = new Rectangle(playerObject.Position.X, playerObject.Position.Y + 4, playerObject.Position.Width, playerObject.Position.Height);
                         ScreenWrap(playerObject);
                     }
 
                     //Right
                     if (kbState.IsKeyDown(Keys.D))
                     {
-                        playerObject.Position = new Rectangle(playerObject.Position.X + 5, playerObject.Position.Y, playerObject.Position.Width, playerObject.Position.Height);
+                        playerObject.Position = new Rectangle(playerObject.Position.X + 4, playerObject.Position.Y, playerObject.Position.Width, playerObject.Position.Height);
                         ScreenWrap(playerObject);
                     }
                     
@@ -183,15 +179,7 @@ namespace HW2_First_Mono
                     //state changes due to timer
                     if (timer < 0)
                     {
-                        //BONUS: HIGH SCORE SYSTEM ADDED
-                        //saves highscore, if beaten
-                        if (playerObject.TotalScore > gameScore)
-                        {
-                            gameScore = playerObject.TotalScore;
-                            highScore.WriteScore(gameScore);
-                        }
-                        highScore.ReadScore();
-                        gameState = GameState.GameOver;                        
+                        gameState = GameState.GameOver;
                     }
 
                     //next level when player collects all items
@@ -199,14 +187,12 @@ namespace HW2_First_Mono
                     {
                         NextLevel();
                     }
-                                        
                     break;
 
                 case "GameOver":
                     if (SingleKeyPress(Keys.Enter))
                     {
                         gameState = GameState.Menu;
-                        
                     }
                     break;
             }
@@ -225,16 +211,18 @@ namespace HW2_First_Mono
             // TODO: Add your drawing code here
             spriteBatch.Begin();
 
+            //Draws background
             spriteBatch.Draw(background, new Rectangle(0, 0, screenWidth, screenHeight), Color.White);
 
-            //Draw Menu
+            //Draw
+            //Menu
             if (gameState == GameState.Menu)
             {
                 spriteBatch.DrawString(spriteFont, "Donnie Boy", new Vector2(screenWidth / 2, screenHeight / 2), Color.DarkRed);
                 spriteBatch.DrawString(spriteFont, "Press Enter to Start", new Vector2(screenWidth / 2, (screenHeight / 2) + 20), Color.Red);
             }
 
-            //Draw Game
+            //Game
             if (gameState == GameState.Game)
             {
                 playerObject.Texture = player;
@@ -251,16 +239,15 @@ namespace HW2_First_Mono
                 spriteBatch.DrawString(spriteFont, "Timer: " + timerStr, new Vector2(0, 40), Color.Blue);
             }
 
-            //Draw Game Over
+            //Game Over
             if (gameState == GameState.GameOver)
             {
-                spriteBatch.Draw(background, new Rectangle(0, 0, screenWidth, screenHeight), Color.Gray);
                 spriteBatch.DrawString(spriteFont, "Game Over", new Vector2(screenWidth / 2, screenHeight / 2), Color.Blue);
                 spriteBatch.DrawString(spriteFont, "Level " + level, new Vector2(screenWidth / 2, (screenHeight / 2) + 20), Color.Blue);
                 spriteBatch.DrawString(spriteFont, "Total Score: " + playerObject.TotalScore, new Vector2(screenWidth / 2, (screenHeight / 2) + 40), Color.Blue);
-                spriteBatch.DrawString(spriteFont, "High Score: " + highScore.score, new Vector2(screenWidth / 2, (screenHeight / 2) + 60), Color.Blue);
-                spriteBatch.DrawString(spriteFont, "Press Enter to Return to the Main Menu", new Vector2(screenWidth / 2, screenHeight - 20), Color.Blue);                
+                spriteBatch.DrawString(spriteFont, "Press Enter to Return to the Main Menu", new Vector2(screenWidth / 2, screenHeight - 20), Color.Blue);
             }
+
 
             //End the sprite batch
             spriteBatch.End();
@@ -268,22 +255,21 @@ namespace HW2_First_Mono
             base.Draw(gameTime);
         }
 
-        //Sets up next level for player
+        //creates next level with increased amount of items
         public void NextLevel()
         {
             //increment the level
             level += 1;
 
             //set the timer
-            timer = 5;
+            timer = 10;
 
             //reset player's level score
             playerObject.LevelScore = 0;
 
             //center player on the screen
-            playerObject.X = screenWidth / 2;   //480
-            playerObject.Y = screenHeight / 2;  //240
-            playerObject.Position = new Rectangle(playerObject.X, playerObject.Y, playerObject.Position.Width, playerObject.Position.Height);
+            playerObject.X = screenWidth / 2;
+            playerObject.Y = screenHeight / 2;
 
             //clear the list of collectibles
             collectibles.Clear();
@@ -302,7 +288,7 @@ namespace HW2_First_Mono
             }
         }
 
-        //Resets the game and calls the Next Level
+        //Calls next Level
         public void ResetGame()
         {
             level = 0;
@@ -310,7 +296,7 @@ namespace HW2_First_Mono
             NextLevel();
         }
 
-        //Keeps the player in the game screen
+        //Keeps the player from disappearing off the screen
         public void ScreenWrap(GameObject gameObject)
         {
             if (playerObject.Position.X > screenWidth)
@@ -334,7 +320,7 @@ namespace HW2_First_Mono
             }
         }
 
-        //Returns a bool for a key press
+        //checks for key pressed by the user
         public bool SingleKeyPress(Keys keys)
         {
             bool valid = false;

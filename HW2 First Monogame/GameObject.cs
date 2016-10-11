@@ -9,11 +9,11 @@ using Microsoft.Xna.Framework.Graphics;
 //HW2 First Monogame
 //Professor Maier
 
-namespace HW2_First_Mono
+namespace Game2
 {
     public class GameObject
     {
-        //Properties
+        //Player Position
         private int x;
 
         public int X

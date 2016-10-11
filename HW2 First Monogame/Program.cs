@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW2_First_Mono
+namespace Game2
 {
 #if WINDOWS || LINUX
     /// <summary>
