@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>D:/Profiles/jxw7456/Source/Repos/IGME-106/PE13 Recursion/PE13 Recursion/Content/quick.spritefont</SourceFile>
+  <SourceTime>2016-10-12T16:43:02.2268401-04:00</SourceTime>
+  <DestFile>D:/Profiles/jxw7456/Source/Repos/IGME-106/PE13 Recursion/PE13 Recursion/Content/bin/Windows/quick.xnb</DestFile>
+  <DestTime>2016-10-12T16:43:06.7073935-04:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

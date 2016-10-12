@@ -1,0 +1,27 @@
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\Content\village.xnb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\PE13 Recursion.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\PE13 Recursion.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\obj\x86\Debug\PE13 Recursion.csprojResolveAssemblyReference.cache
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\obj\x86\Debug\PE13 Recursion.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\obj\x86\Debug\PE13 Recursion.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE13 Recursion\PE13 Recursion\bin\Windows\x86\Debug\Content\quick.xnb
