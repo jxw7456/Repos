@@ -35,6 +35,7 @@ namespace HW4_Linked_List
                 {
                     valid = false;
                     Console.WriteLine("Thanks for typing!");
+                    Console.ReadLine();
                 }
 
                 //Print
@@ -85,8 +86,6 @@ namespace HW4_Linked_List
                     linkedList.Add(str);
                     Console.WriteLine("'" + str + "' has been added to the list.");
                 }
-
-                Console.ReadLine();
             }
         }
     }

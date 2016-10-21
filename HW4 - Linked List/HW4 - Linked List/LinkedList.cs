@@ -69,10 +69,13 @@ namespace HW4_Linked_List
                     current = current.Next;
                 }
 
-                current.Previous.Next = newNode;
-                newNode.Previous = current.Previous;
-                newNode.Next = current;
-                current.Previous = newNode;
+                if (current.Previous != null)
+                {
+                    current.Previous.Next = newNode;
+                    newNode.Previous = current.Previous;
+                    newNode.Next = current;
+                    current.Previous = newNode;
+                }
 
                 count++;
             }
@@ -108,10 +111,9 @@ namespace HW4_Linked_List
             }
 
             //If the index is at the end, remove the current tail and set the preceding node to the tail
-            if (index == count - 1)
+            if (index == count - 1 && tail != null)
             {
                 data = tail.Data;
-                tail = null;
                 tail = tail.Previous;
 
                 count--;
@@ -127,9 +129,18 @@ namespace HW4_Linked_List
 
                 data = current.Data;
 
-                current.Previous.Next = current.Next;
-                current.Next.Previous = current.Previous;
+                Node previous = current.Previous;
+                Node next = current.Next;
 
+                if (previous != null)
+                {
+                    current.Previous.Next = current.Next;
+                }
+
+                if (next != null)
+                {
+                    current.Next.Previous = current.Previous;
+                }
                 count--;
             }
 
