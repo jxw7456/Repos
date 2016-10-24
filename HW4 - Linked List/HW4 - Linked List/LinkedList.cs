@@ -17,6 +17,9 @@ namespace HW4_Linked_List
         private Node tail = null;
         private int count = 0;
 
+        //Returns a count of the number of nodes in the linked list
+        public int Count { get { return count; } }
+
         //Add a new Node object to the end of the list.
         public void Add(String data)
         {
@@ -184,8 +187,5 @@ namespace HW4_Linked_List
             head = null;
             tail = null;
         }
-
-        //Returns a count of the number of nodes in the linked list
-        public int Count { get { return count; } }
     }
 }
