@@ -148,7 +148,7 @@ namespace HW4_Linked_List
         }
 
         //Return the element at this index in the list.
-        public String GetElement(int index)
+        public String GetData(int index)
         {
             //Check if index is less than zero or greater than count
             if (index < 0 || index >= count)

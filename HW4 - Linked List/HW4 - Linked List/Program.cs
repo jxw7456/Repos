@@ -44,7 +44,7 @@ namespace HW4_Linked_List
                     Console.WriteLine("The following items are in the list: ");
                     for (int i = 0; i < linkedList.Count; i++)
                     {
-                        Console.WriteLine(linkedList.GetElement(i));
+                        Console.WriteLine(linkedList.GetData(i));
                     }
                 }
 

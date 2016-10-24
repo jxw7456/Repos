@@ -19,7 +19,7 @@ public interface IList
     String Remove(int index);
 
     //Return the element at this index in the list.
-    String GetElement(int index);
+    String GetData(int index);
 
     //Clears the list
     void Clear();

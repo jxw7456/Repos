@@ -1,0 +1,12 @@
+C:\Users\Steve\Source\Repos\GDAPS2\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe.config
+C:\Users\Steve\Source\Repos\GDAPS2\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe
+C:\Users\Steve\Source\Repos\GDAPS2\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.pdb
+C:\Users\Steve\Source\Repos\GDAPS2\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Source\Repos\GDAPS2\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.exe
+C:\Users\Steve\Source\Repos\GDAPS2\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe.config
+D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.csprojResolveAssemblyReference.cache
+D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.pdb
