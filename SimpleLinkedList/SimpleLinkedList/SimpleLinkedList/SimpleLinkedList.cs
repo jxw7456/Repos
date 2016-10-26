@@ -107,6 +107,40 @@ namespace SimpleLinkedList
             }
         }
 
+        public void InsertSorted(String data)
+        {
+            if (head == null)
+            {
+                Node newNode = head;
+                Add(newNode.Data);
+                count = 1;
+            }
+
+            if (head != null)
+            {
+                if (String.Compare(data, head.Data) < 0 )
+                {
+                    Insert(head.Next.Next.Next.Next.Next.Data, 1);
+                    head.Next.Next.Next.Next.Next.Data = head.Next.Next.Next.Next.Data;
+                    head.Next.Next.Next.Next.Data = head.Next.Next.Next.Data;
+                    head.Next.Next.Next.Data = head.Next.Next.Data;                    
+                    head.Next.Next.Data = head.Next.Data;
+                    head.Next.Data = head.Data;                    
+                    head.Data = data;                    
+                }
+
+                if (String.Compare(data, head.Next.Next.Next.Next.Next.Data) > 0)
+                {
+                    head.Next.Next.Next.Next.Next.Data = data;
+                }
+
+                if (String.Compare(data, head.Data) == 0)
+                {
+                    
+                }
+            }
+        }
+
         public int Count { get { return count; } }
     }
 }

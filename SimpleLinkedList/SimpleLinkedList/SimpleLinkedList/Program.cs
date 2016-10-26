@@ -13,11 +13,14 @@ namespace SimpleLinkedList
             SimpleLinkedList myList = new SimpleLinkedList();
             try
             {
-                myList.Add("Jon");
-                myList.Add("Kat");
-                myList.Add("Jordan");
-                myList.Add("Malcolm");
+                /*
+                myList.Add("Imani");
                 myList.Add("JaJuan");
+                myList.Add("Jon");
+                myList.Add("Jordan");
+                myList.Add("Kat");                
+                myList.Add("Malcolm");
+                */               
             }
             catch(Exception ex)
             {
@@ -38,8 +41,15 @@ namespace SimpleLinkedList
                 Console.WriteLine(myList.GetData(i));
             }
 
-            myList.Insert("JaJuan", 0);
+            /*
+            myList.Insert("Pops", 0);
             Console.WriteLine(myList.GetData(0));
+            myList.Traverse();*/
+
+            //INDENT
+            Console.WriteLine();
+
+            myList.InsertSorted("");
             myList.Traverse();
 
             //INDENT
