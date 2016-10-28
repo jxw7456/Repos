@@ -8,139 +8,172 @@ namespace SimpleLinkedList
 {
     class SimpleLinkedList
     {
-        Node head = null;
+        //Attributes
+        private Node head = null;
         private int count = 0;
 
-        public SimpleLinkedList()
+        //Adds item to the list
+        public void Add(string str)
         {
+            //Create new node
+            Node newNode = new Node(str);
 
-        }
-
-        public void Add(string data)
-        {
-            if (data == null)
-                throw new ArgumentNullException("data", "You can't add a null object you idiot from MIT...");
-
-            Node newNode = new Node(data);
             if (head == null)
             {
                 head = newNode;
+                count++;
                 return;
             }
 
-            Node currentNode = head;
-            while (currentNode.Next != null)
+            //If there's something in the list
+            Node current = head;
+            while (current.Next != null)
             {
-                currentNode = currentNode.Next;
+                current = current.Next;
             }
-            currentNode.Next = newNode;
+
+            //End of the list
+            current.Next = newNode;
+            count++;
         }
 
+        //Insert string into the list
+        public void Insert(string str, int position)
+        {
+            if (head == null)
+            {
+                Add(str);
+                return;
+            }
+
+            if (position < 0)
+            {
+                Console.WriteLine("Minimum allowed position value is zero");
+                return;
+            }
+
+            //Replaces the head
+            if (position == 0)
+            {
+                Node newNode = new Node(str);
+                newNode.Next = head;
+                head = newNode;
+                count++;
+                return;
+            }
+
+            //If position >= to count, add it to the end of the list
+            if (position >= count)
+            {
+                Add(str);
+                return;
+            }
+
+            Node previous = head;
+            Node current = head;
+            int location = 0;
+            while (location < count)
+            {
+                if (location == position)
+                {
+                    Node newNode = new Node(str);
+
+                    newNode.Next = current;
+                    previous.Next = newNode;
+                    count++;
+                    return;
+                }
+                location++; //Next node
+                previous = current;
+                current = current.Next;
+            }
+        }
+        
+        //Print all data
         public void Traverse()
         {
             if (head == null)
             {
-                Console.WriteLine("Why are you empty??");
+                Console.WriteLine("Why is your list empty?");
+                return;
             }
-            else
-            {
-                Node currentNode = head;
-                do
-                {
-                    Console.WriteLine(currentNode.Data);
-                    currentNode = currentNode.Next;
-                } while (currentNode != null);
-            }
-        }
-
-        //Return the element at this index in the list.
-        public String GetData(int index)
-        {
-            //Check if index is less than zero or greater than count
-            if (index < 0 || index >= count)
-            {
-                return null; // returns null if so
-            }
-
-            //Loops a set number of times and returns the data
 
             Node current = head;
-
-            for (int i = 0; i < index; i++)
+            while (current.Next != null)
             {
+                Console.WriteLine(current);
+
+                //Next node
                 current = current.Next;
             }
-
-            return current.Data;
+            Console.WriteLine(current);
         }
 
-        //Clears the list
-        public void Clear()
+        //Put list in alphabetical order
+        public void InsertSorted(string str)
         {
-            Node current = head;
-
-            //Loops through and sets each node to null
-            for (int i = 0; i < count - 1; i++)
+            //If nothing is in the list
+            if (count == 0)
             {
-                current = current.Next;
-            }
-
-            count = 0;
-            head = null;
-        }
-
-        //Inserts a Node object at a specified location in the list.
-        public void Insert(String data, int index)
-        {
-            //If the index is <= 0, insert the data in the beginning
-            if (index <= 0)
-            {
-                Node newNode = new Node(data);
-                Add(newNode.Data);
-            }
-
-            //If the index is >= count, insert the data at the end
-            if (index >= count)
-            {
-                Node newNode = new Node(data);
-                Add(newNode.Data);
-            }
-        }
-
-        public void InsertSorted(String data)
-        {
-            if (head == null)
-            {
-                Node newNode = head;
-                Add(newNode.Data);
+                Add(str);
                 count = 1;
+                return;
             }
 
-            if (head != null)
+            //If list is filled
+            if (count != 0)
             {
-                if (String.Compare(data, head.Data) < 0 )
+                //If string precedes the head
+                if (String.Compare(str, head.Data) < 0)
                 {
-                    Insert(head.Next.Next.Next.Next.Next.Data, 1);
-                    head.Next.Next.Next.Next.Next.Data = head.Next.Next.Next.Next.Data;
-                    head.Next.Next.Next.Next.Data = head.Next.Next.Next.Data;
-                    head.Next.Next.Next.Data = head.Next.Next.Data;                    
-                    head.Next.Next.Data = head.Next.Data;
-                    head.Next.Data = head.Data;                    
-                    head.Data = data;                    
+                    Insert(str, 0);
+                    return;
                 }
 
-                if (String.Compare(data, head.Next.Next.Next.Next.Next.Data) > 0)
+                //If string is greater than the end
+                Node current = head;
+
+                while (current.Next != null)
                 {
-                    head.Next.Next.Next.Next.Next.Data = data;
+                    current = current.Next;
                 }
 
-                if (String.Compare(data, head.Data) == 0)
+                if (String.Compare(str, current.Data) > 0)
                 {
-                    
+                    Insert(str, count + 1);
+                    return;
+                }
+
+                Node current2 = head;
+
+                while (current2.Next != null)
+                {
+                    int i = 0;
+
+                    //If it precedes the current node
+                    if (String.Compare(str, current2.Data) < 0)
+                    {
+                        Insert(str, i);
+                        return;
+                    }
+
+                    //If it comes after the current node
+                    if (String.Compare(str, current2.Data) > 0)
+                    {
+                        Insert(str, i + 1);
+                        return;
+                    }
+
+                    //If they are equal
+                    if (String.Compare(str, current2.Data) == 0)
+                    {
+                        Insert(str, i + 1);
+                        return;
+                    }
+                    i++;
+                    current2 = current2.Next;
                 }
             }
         }
-
-        public int Count { get { return count; } }
     }
 }

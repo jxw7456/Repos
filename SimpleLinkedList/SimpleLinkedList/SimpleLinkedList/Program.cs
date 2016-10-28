@@ -11,52 +11,36 @@ namespace SimpleLinkedList
         static void Main(string[] args)
         {
             SimpleLinkedList myList = new SimpleLinkedList();
-            try
-            {
-                /*
-                myList.Add("Imani");
-                myList.Add("JaJuan");
-                myList.Add("Jon");
-                myList.Add("Jordan");
-                myList.Add("Kat");                
-                myList.Add("Malcolm");
-                */               
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine("You had an exception...");
-                Console.WriteLine(ex);
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine();
-            }
+
+            myList.InsertSorted("Webster");
+            myList.InsertSorted("Mia");
+            myList.InsertSorted("JaJuan");
+            myList.InsertSorted("Bobby");
+            myList.InsertSorted("Tommy");
+            myList.InsertSorted("Louis");
+            myList.InsertSorted("Malcolm");
+            myList.InsertSorted("Zeus");
+            myList.InsertSorted("Karen");
+            myList.InsertSorted("Maier");
+
             myList.Traverse();
 
-            //INDENT
-            Console.WriteLine();
-
+            /*
             for (int i = 0; i < myList.Count; i++)
             {                
                 Console.WriteLine(myList.GetData(i));
             }
 
-            /*
             myList.Insert("Pops", 0);
             Console.WriteLine(myList.GetData(0));
-            myList.Traverse();*/
-
-            //INDENT
-            Console.WriteLine();
-
-            myList.InsertSorted("");
             myList.Traverse();
 
+            
             //INDENT
             Console.WriteLine();
 
             myList.Clear();
-            myList.Traverse();
+            */
 
             Console.ReadLine();
         }

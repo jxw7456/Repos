@@ -8,20 +8,45 @@ namespace SimpleLinkedList
 {
     class Node
     {
-        public string Data { get; set; }
+        // attributes
+        private string data; // data to store
+        private Node next; // connection to the next node
 
-        public Node Next { get; set; }
-
-        public Node()
+        // constructor
+        public Node(string str)
         {
-            Data = null;
-            Next = null;
+            data = str;
+            next = null;
         }
 
-        public Node(string data)
+        // properties
+        public string Data
         {
-            Data = data;
-            Next = null;
+            get { return data; }
+        }
+
+        public Node Next
+        {
+            get { return next; }
+            set { next = value; }
+        }
+
+        //ToString
+        public override string ToString()
+        {
+            string str = "";
+
+            //Create the string to return based on next value
+            if (next != null)
+            {
+                str = Data;
+            }
+            else
+            {
+                str = Data + " (Last Node)";
+            }
+
+            return str;
         }
     }
 }

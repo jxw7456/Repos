@@ -10,3 +10,9 @@ D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\Simp
 D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.csprojResolveAssemblyReference.cache
 D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe
 D:\Profiles\jxw7456\Source\Repos\IGME-106\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.pdb
+B:\Source\Repos2\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe.config
+B:\Source\Repos2\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.exe
+B:\Source\Repos2\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.pdb
+B:\Source\Repos2\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.exe
+B:\Source\Repos2\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\bin\Debug\SimpleLinkedList.pdb
+B:\Source\Repos2\SimpleLinkedList\SimpleLinkedList\SimpleLinkedList\obj\Debug\SimpleLinkedList.csprojResolveAssemblyReference.cache
