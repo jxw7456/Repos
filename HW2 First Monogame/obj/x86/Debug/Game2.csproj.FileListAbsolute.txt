@@ -30,3 +30,5 @@ D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\bin\Windows\x86\Debug\SharpDX.Di
 D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
 D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.exe
 D:\Profiles\jxw7456\Source\Repos\IGME-106\Game2\obj\x86\Debug\Game2.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\obj\x86\Debug\Game2.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\HW2 First Monogame\obj\x86\Debug\Game2.pdb

@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//Name: JaJuan Webster
+//Instructor: Professor Maier
+//Exam 2
 
 namespace Counter
 {
+    //implement the IStack interface
     class Stack : IStack
     {
         List<string> words = new List<string>();
@@ -24,8 +28,14 @@ namespace Counter
                 return null;
             }
 
-            words.RemoveAt(0);
-            return words[0];
+            string top = words[0];
+
+            if (words[0] != null)
+            {
+                words.RemoveAt(0);
+            }
+
+            return top;
         }
 
         // tells if the stack is empty. return true if empty, otherwise returns false

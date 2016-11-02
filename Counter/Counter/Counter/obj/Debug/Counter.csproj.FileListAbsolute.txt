@@ -7,3 +7,6 @@ C:\IGME106\Exams\Exam2 - spring 2014\Counter\Counter\obj\Debug\Counter.pdb
 D:\Profiles\jxw7456\Source\Repos\IGME-106\Counter\Counter\Counter\bin\Debug\Counter.exe.config
 D:\Profiles\jxw7456\Source\Repos\IGME-106\Counter\Counter\Counter\obj\Debug\Counter.exe
 D:\Profiles\jxw7456\Source\Repos\IGME-106\Counter\Counter\Counter\obj\Debug\Counter.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Counter\Counter\Counter\bin\Debug\Counter.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Counter\Counter\Counter\bin\Debug\Counter.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\Counter\Counter\Counter\obj\Debug\Counter.csprojResolveAssemblyReference.cache

@@ -40,6 +40,7 @@
             this.ClientSize = new System.Drawing.Size(284, 264);
             this.Name = "RaceTrack";
             this.Text = "Off To The Races";
+            this.Load += new System.EventHandler(this.RaceTrack_Load);
             this.ResumeLayout(false);
 
         }

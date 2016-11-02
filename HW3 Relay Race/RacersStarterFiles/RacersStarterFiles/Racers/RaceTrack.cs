@@ -235,6 +235,10 @@ namespace Racers
 
         #endregion
 
+        private void RaceTrack_Load(object sender, EventArgs e)
+        {
+
+        }
     } // class RaceTrack
 
 } // namespace Racers

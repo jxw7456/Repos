@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//Name: JaJuan Webster
+//Instructor: Professor Maier
+//Exam 2
 
 namespace Counter
 {
+    //implement the IQueue interface
     class Queue : IQueue
     {
         List<string> words = new List<string>();
