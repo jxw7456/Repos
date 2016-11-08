@@ -1,0 +1,6 @@
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE21 Talent Tree Traversal\PE21 Talent Tree Traversal\bin\Debug\PE21 Talent Tree Traversal.exe.config
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE21 Talent Tree Traversal\PE21 Talent Tree Traversal\bin\Debug\PE21 Talent Tree Traversal.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE21 Talent Tree Traversal\PE21 Talent Tree Traversal\bin\Debug\PE21 Talent Tree Traversal.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE21 Talent Tree Traversal\PE21 Talent Tree Traversal\obj\Debug\PE21 Talent Tree Traversal.csprojResolveAssemblyReference.cache
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE21 Talent Tree Traversal\PE21 Talent Tree Traversal\obj\Debug\PE21 Talent Tree Traversal.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE21 Talent Tree Traversal\PE21 Talent Tree Traversal\obj\Debug\PE21 Talent Tree Traversal.pdb
