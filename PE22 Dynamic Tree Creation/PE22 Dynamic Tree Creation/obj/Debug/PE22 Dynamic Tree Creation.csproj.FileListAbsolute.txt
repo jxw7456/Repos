@@ -1,1 +1,6 @@
 D:\Profiles\jxw7456\Source\Repos\IGME-106\PE22 Dynamic Tree Creation\PE22 Dynamic Tree Creation\bin\Debug\PE22 Dynamic Tree Creation.exe.config
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE22 Dynamic Tree Creation\PE22 Dynamic Tree Creation\bin\Debug\PE22 Dynamic Tree Creation.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE22 Dynamic Tree Creation\PE22 Dynamic Tree Creation\bin\Debug\PE22 Dynamic Tree Creation.pdb
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE22 Dynamic Tree Creation\PE22 Dynamic Tree Creation\obj\Debug\PE22 Dynamic Tree Creation.csprojResolveAssemblyReference.cache
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE22 Dynamic Tree Creation\PE22 Dynamic Tree Creation\obj\Debug\PE22 Dynamic Tree Creation.exe
+D:\Profiles\jxw7456\Source\Repos\IGME-106\PE22 Dynamic Tree Creation\PE22 Dynamic Tree Creation\obj\Debug\PE22 Dynamic Tree Creation.pdb

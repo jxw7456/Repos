@@ -13,7 +13,31 @@ namespace PE22_Dynamic_Tree_Creation
     {
         static void Main(string[] args)
         {
+            Tree tree = new Tree();
+            Random rng = new Random();
 
+            //Insert Numbers
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+            tree.Insert(rng.Next(100));
+
+            //Print Tree
+            tree.Print();
+
+            //DEBUG
+            Console.ReadLine();
         }
     }
 }
